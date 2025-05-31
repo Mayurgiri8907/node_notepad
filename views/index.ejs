@@ -17,7 +17,6 @@
     </form>
 
     <div class="p-10 mt-10 ml-[100px] flex">
-        <% if(files.length > 0){ %>
             <% files.forEach(function(val){%>
 
                 <div class="bg-black/50 text-white m-5 py-5 px-10">
@@ -31,12 +30,7 @@
             <%}) %>
 
 
-        <% } else{ %>
-
-            <div class="bg-black/50 text-white m-5 py-5 px-10">
-                <h1 class="mt-[100px] ml-[100px] text-white">empty file folder</h1>
-            </div>
-        <%}%>
+        
         
         
         
